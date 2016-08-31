@@ -275,6 +275,7 @@ i.mediaInfoItem {
     color: #ccc;
     /*position: relative;
     margin: auto;*/
+    display: flex;
 }
 
 .homePageContainer .selectedItemInfo {
@@ -302,19 +303,14 @@ i.mediaInfoItem {
         height: 2.96vh;
     }
 
-.selectedItemInfoInnerWithLogo {
-    padding-left: 18%;
-}
-
 .selectedItemInfoLogo {
-    position: absolute;
     top: .5%;
     width: 16%;
     bottom: 94.5%;
-    left: 0;
     background-repeat: no-repeat;
     background-position: right center;
     background-size: contain;
+    margin-right: 1em;
 }
 
 .selectedItemInfoInner > div {
