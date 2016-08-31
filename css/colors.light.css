@@ -1,0 +1,165 @@
+html {
+    color: #fff;
+}
+
+a {
+    color: #bcd0cf;
+    outline: none !important;
+    display: inline-block;
+    transition: all .15s ease-out;
+}
+
+    a:focus {
+        background: #bcd0cf;
+        color: #fff;
+        transform: scale(1.16);
+        padding-left: .3em;
+        padding-right: .3em;
+        border-radius: .15em;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+.backgroundContainer {
+    background-image: radial-gradient(#e3ebe0, #acb5ba);
+}
+
+    .backgroundContainer.withBackdrop {
+        background: linear-gradient(rgba(227,235,224, .9), rgba(227,235,224, .6), rgba(227,235,224, .9));
+    }
+
+.headerLogo {
+    background-image: url(images/logowhite.png);
+}
+
+.fieldDescription, .dimText {
+    color: #aaa;
+}
+
+.dim {
+    color: #aaa;
+}
+
+.emby-select, .emby-input {
+    border-bottom-color: rgb(115, 115, 115) !important;
+}
+
+.checkboxLabel, .selectLabelUnfocused {
+    color: #bbb !important;
+}
+
+.inputLabel, .textareaLabelUnfocused {
+    color: #bbb;
+}
+
+.checkboxOutline {
+    border-color: #bbb;
+}
+
+.emby-button.raised {
+    background: #404040;
+}
+
+.emby-button:focus:not(.btnUserViewHeader) {
+    background: #bcd0cf;
+    color: #fff;
+}
+
+.cardFooter:not(.cardFooter-round) {
+    background-color: #333;
+}
+
+.card:focus:not(.card-round) .cardBox {
+    border-color: #bcd0cf;
+    /*border-color: rgba(0, 0, 0, .6);*/
+}
+
+.card[data-cardtype='embyconnect'] .cardImageContainer {
+    background-color: #bcd0cf;
+}
+
+.headerBackButton {
+    color: #aaa;
+}
+
+
+.userViewNames button {
+    opacity: .25;
+}
+
+
+/*.userViewButtonText {
+    border-bottom: 2px solid transparent;
+}*/
+
+.userViewNames button.selected {
+    color: #e5ece1;
+    opacity: 1;
+}
+
+.dialog {
+    background-color: rgba(20,20,20,1) !important;
+    color: #e5ece1 !important;
+}
+
+.albumsCard .cardImageContainer, .recordingsCard .cardImageContainer {
+    background: #38c;
+}
+
+.allGenericCard .cardImageContainer, .artistsCard .cardImageContainer {
+    background: #4CAF50;
+}
+
+.genresCard .cardImageContainer, .scheduledLiveTvCard .cardImageContainer {
+    background: #F44336;
+}
+
+.movieCollectionsCard .cardImageContainer {
+    background-color: #009688;
+}
+
+.movieGenresCard .cardImageContainer {
+    background-color: #009688;
+}
+
+.tvUpcomingCard .cardImageContainer {
+    background-color: #009688;
+}
+
+.emptyStar {
+    color: #bbb !important;
+}
+
+.userViewNames button:focus {
+    color: #bcd0cf !important;
+    opacity: 1;
+}
+
+.userViewNames button:focus .userViewButtonText {
+    /*border-bottom-color: transparent;*/
+    border-bottom-style: none;
+}
+
+.userViewNames button:focus {
+    color: #bcd0cf !important;
+    opacity: 1;
+}
+
+.selectedItemSecondaryInfo {
+    color: #ddd !important;
+}
+
+.listItem:focus {
+    background-color: #333 !important;
+    border-radius: .25em;
+}
+
+.listItemBody .secondary {
+    color: #999 !important;
+}
+
+.tagline {
+    color: #FFEB3B;
+}

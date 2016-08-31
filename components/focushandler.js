@@ -233,7 +233,7 @@ define(['imageLoader', 'itemHelper', 'backdrop', 'mediaInfo', 'focusManager', 's
                 selectedItemInfoInner.innerHTML = html;
 
                 var rect = card.getBoundingClientRect();
-                selectedItemInfoInner.parentNode.style.left = (Math.max(rect.left, 70)) + 'px';
+                // selectedItemInfoInner.parentNode.style.left = (Math.max(rect.left, 70)) + 'px';
 
                 if (html && enableAnimations) {
                     fadeIn(selectedItemInfoInner, 1);
