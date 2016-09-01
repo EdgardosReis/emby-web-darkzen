@@ -144,7 +144,13 @@ a {
 }
 
 .userViewNames {
-    padding-left: 3.75%;
+    position: fixed;
+    bottom: 2.5%;
+    left: 0;
+    right: 10%;
+    max-width: 60%;
+    font-size: 84%;
+    background-color: rgba(0,0,0,0.3) 
 }
 
 .itemScrollFrame.scrollFrameX {
@@ -272,15 +278,16 @@ i.mediaInfoItem {
     right: 10%;
     max-width: 60%;
     font-size: 84%;
-    color: #ccc;
+    color: #777;
     /*position: relative;
     margin: auto;*/
-    display: flex;
+    /*display: flex;*/
 }
 
 .homePageContainer .selectedItemInfo {
     right: 2%;
     top: 2.5%;
+    bottom: initial;
 }
 
 .selectedItemInfo h2 {
@@ -303,14 +310,18 @@ i.mediaInfoItem {
         height: 2.96vh;
     }
 
+.selectedItemInfoInnerWithLogo {
+    padding-left: 18%;
+}
 .selectedItemInfoLogo {
+    /*position: absolute;*/
     top: .5%;
     width: 16%;
     bottom: 94.5%;
+    left: 0;
     background-repeat: no-repeat;
     background-position: right center;
     background-size: contain;
-    margin-right: 1em;
 }
 
 .selectedItemInfoInner > div {

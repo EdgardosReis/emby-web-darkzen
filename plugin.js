@@ -32,7 +32,7 @@ define(['playbackManager', 'pluginManager', 'browser', 'connectionManager', 'eve
             var list = [
                 // Used for the mpaa rating
                 'css!' + pluginManager.mapPath(self, 'css/style'),
-                'css!' + pluginManager.mapPath(self, 'css/colors.dark')
+                'css!' + pluginManager.mapPath(self, 'css/colors.light')
             ];
 
             if (browser.android) {
