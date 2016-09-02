@@ -274,6 +274,7 @@ i.mediaInfoItem {
 .selectedItemInfo {
     position: fixed;
     top: .5%;
+    bottom: initial;
     left: 4.5%;
     right: 10%;
     max-width: 60%;

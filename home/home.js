@@ -185,6 +185,10 @@ define(['connectionManager', 'loading', './../components/tabbedpage', 'backdrop'
                         break;
                     case 'movies':
                         viewName = 'movies';
+                        debugger;
+                        page.querySelector('button[data-type="movies"]').addEventListener('click', function () {
+                            Emby.Page.show(Emby.PluginManager.mapRoute(skinInfo.id, 'movies/movies.html?parentid=' + id));
+                        });                                           
                         break;
                     case 'channels':
                         viewName = 'channels';
