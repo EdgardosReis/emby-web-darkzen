@@ -24,11 +24,13 @@ html.layout-tv {
 }
 
 .layout-tv h1 {
-    font-size: 4.07vh;
+    /*font-size: 4.07vh;*/
+    font-size: 8vh;
 }
 
 .layout-tv h2 {
-    font-size: 3.3333vh;
+    /*font-size: 3.3333vh;*/
+    font-size: 5vh;
 }
 
 .layout-tv h3 {
