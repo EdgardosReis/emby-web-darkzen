@@ -72,12 +72,19 @@ a {
 }
 
 .card:focus:not(.card-round) .cardBox {
-    border-color: #bcd0cf;
-    /*border-color: rgba(0, 0, 0, .6);*/
+    -webkit-box-shadow: inset 0px 0px 0px 5px rgba(255,255,255,0.5);
+    -moz-box-shadow: inset 0px 0px 0px 5px rgba(255,255,255,0.5);
+    box-shadow: inset 0px 0px 0px 5px rgba(255,255,255,0.5);
 }
 
 .card[data-cardtype='embyconnect'] .cardImageContainer {
     background-color: #bcd0cf;
+}
+
+.cardBox {
+    -webkit-box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,0.5);
+    -moz-box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,0.5);
+    box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,0.5);
 }
 
 .headerBackButton {

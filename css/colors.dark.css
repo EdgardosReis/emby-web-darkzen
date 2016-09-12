@@ -72,8 +72,9 @@ a {
 }
 
 .card:focus:not(.card-round) .cardBox {
-    border-color: #52B54B;
-    /*border-color: rgba(0, 0, 0, .6);*/
+    -webkit-box-shadow: inset 0px 0px 0px 5px rgba(255,255,255,0.5);
+    -moz-box-shadow: inset 0px 0px 0px 5px rgba(255,255,255,0.5);
+    box-shadow: inset 0px 0px 0px 5px rgba(255,255,255,0.5);
 }
 
 .card[data-cardtype='embyconnect'] .cardImageContainer {

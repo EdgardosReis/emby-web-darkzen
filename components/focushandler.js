@@ -4,7 +4,7 @@ define(['imageLoader', 'itemHelper', 'backdrop', 'mediaInfo', 'focusManager', 's
         var enableAnimations = browser.animate || browser.edge;
         var zoomInEase = 'ease-out';
         var zoomOutEase = 'ease-in';
-        var zoomDuration = 200;
+        var zoomDuration = 80;
 
         function zoomOut(elem, scaleSize) {
 
@@ -37,7 +37,7 @@ define(['imageLoader', 'itemHelper', 'backdrop', 'mediaInfo', 'focusManager', 's
             var zoomElement;
             var currentAnimation;
             var isHorizontal = options.scroller ? options.scroller.options.horizontal : options.horizontal;
-            var zoomScale = options.zoomScale || (isHorizontal ? '1.16' : '1.12');
+            var zoomScale = options.zoomScale || (isHorizontal ? '1.08' : '1.08');
             var lastFocus = 0;
 
             if (layoutManager.tv) {
